@@ -60,6 +60,34 @@ After you have set up your environment, you'll need to make some changes to your
     `final response = await http.post("http://192.168.100.12/tenjindb/login.php",` 
     
     change the `192.168.100.12` to your IP address
+    
+  + In `register_page.dart` on line 35 : 
+
+    `var url="http://192.168.100.12/tenjindb/register.php",` 
+
+    change the `192.168.100.12` to your IP address
+    
+  + In `viewCourses.dart` on line 20 : 
+
+    `final response = await http.post("http://192.168.100.12/tenjindb/getcourses.php",` 
+
+    change the `192.168.100.12` to your IP address
+    
+    + In `student_file.dart` on line 51 : 
+
+    `final result = await http.get("http://192.168.100.12/tenjindb/studentcourse.php");` 
+
+    change the `192.168.100.12` to your IP address
+    
+    + In `courseServices.dart` on line 7 : 
+
+    `static const ROOT = 'http://192.168.100.12/tenjindb/CourseQueries.php';` 
+
+    change the `192.168.100.12` to your IP address
+  
+  4. Run the application
+  
+  
 
 
 
