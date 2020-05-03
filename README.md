@@ -35,6 +35,33 @@ Several technologies were utilised to ensure that Tenjin met its core requiremen
 once the last prototype is finalised then this will be added
 
 ## Installation
+This section will guide users through Tenjin's installation process.
+
+### Environment Setup
+1. Download [XAMPP](https://www.apachefriends.org/index.html) for your respective OS
+2. Set up, install and launch XAMPP, ensure that all servers are running
+3. Go to your browser and type in `localhost` or your `IP address` in the search bar, once you are greeeted with XAMPP's splash page, you have successfully set up XAMPP, Congrats!
+4. Install your preferred IDE (We worked with Android Studio and Visual Studio Code)
+5. Install [Flutter](https://flutter.dev/docs/get-started/install) for your respective OS
+6. *If* you are using **Android Studio**, please go to plugins and search for `Flutter` and install it, the Flutter plugin is coupled with the Dart API plugin so you will not have to download Dart separately (YAY)
+7. *If* you are using **Visual Studio Code**, please go to extensions and search for the `Flutter` and `Dart` extensions and install them.
+
+### Code Configuration
+After you have set up your environment, you'll need to make some changes to your code once you have downloaded it
+1. Download or clone this repository and stick it in your `HTDOCS` folder
+2. You will need your IP address for the paths in this application, if you do not know what your IP address is, here are some commands that you can enter in your command line / terminal:
+  + `Windows: ipconfig`
+  + `Mac OS: ipconfig getifaddr en0` (this is if you are using a wireless connection)
+  + `Mac OS: ipconfig getifaddr en1` (this is if you are using an ethernet connection)
+  + `Linux: ifconfig`
+3. There are several files that use the IP address to connect to the backend database via the HTTP server. In each of these files you will have to replace the original IP address with your IP address
+  + In `login_page.dart` on line 33 : 
+  
+    `final response = await http.post("http://192.168.100.12/tenjindb/login.php",` 
+    
+    change the `192.168.100.12` to your IP address
+
+
 
 ## How to Use
 ### FOR TEACHERS
