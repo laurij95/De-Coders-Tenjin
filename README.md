@@ -1,9 +1,13 @@
-# Tenjin by Decoders
+<p align="center">
+  <img width="100" src = "https://raw.githubusercontent.com/laurij95/De-Coders-Tenjin/master/tenjin-2.png?token=AJBTKRJPNETSWIMX5NQ3WMK6VZDEU" alt="Tenjin Logo">
+</p>
+
+<h1 align = "center">Tenjin by Decoders</h1>
+
+
 > In mythology, folklore and the Shinto religion of Japan, Tenjin (天神) is the patron kami (deity) of academics, scholarship and learning, the intelligentsia.
 
 ### This is a Github respository for the project course INFO 3604
-
-<div style="text-align:center"><img src="" /></div>
 
 ## Overview
 Tenjin is a mobile teacher's assistant application developed by Decoders as their final year project. 
