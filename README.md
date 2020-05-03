@@ -1,4 +1,6 @@
 # Tenjin by Decoders
+> In mythology, folklore and the Shinto religion of Japan, Tenjin (天神) is the patron kami (deity) of academics, scholarship and learning, the intelligentsia.
+
 ### This is a Github respository for the project course INFO 3604
 
 ## Overview
