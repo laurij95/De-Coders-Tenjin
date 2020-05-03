@@ -15,7 +15,7 @@ Tenjin allows students to view the tally of acquired credit points by course so 
 ## Technologies Used
 Several technologies were utilised to ensure that Tenjin met its core requirements, some of which include:
 * **Flutter framework with Dart API**
-* **PHP Programming Language
+* **PHP Programming Language**
 * **Flutter plugins and packages**
   + firebase_auth: version 0.15.5+3
   + cloud_firestore: version 0.13.4+2
@@ -33,18 +33,36 @@ Several technologies were utilised to ensure that Tenjin met its core requiremen
 once the last prototype is finalised then this will be added
 
 ## Installation
-put the instructions for the installation here
 
 ## How to Use
-### Signing up / Registering as a Teacher
+### FOR TEACHERS
+#### Signing up / Registering
 ---
-### Courses
-#### Add , Update and Delete Courses
+#### Login
 ---
-### Documents
-#### Upload , Update and Delete Documents
+#### Courses
+##### Add Course
+##### Update Course 
+##### Delete Courses
+---
+#### Documents
+##### Upload Document
+##### Update Document
+##### Delete Document
+---
+### FOR STUDENTS
+#### Signing up / Registering
+---
+#### Login
 ---
 
+#### Courses
+##### View Courses
+---
+#### Documents
+##### View Documents
+##### Buy / Unlock a Document
+---
 
 
 
