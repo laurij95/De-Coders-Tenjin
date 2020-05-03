@@ -1,6 +1,11 @@
-# Tenjin
-## By Decoders
+# Tenjin by Decoders
 ### This is a Github respository for the project course INFO 3604
+
+## Overview
+this is where the overview of the application should be 
+
+## Installation
+put the instructions for the installation here
 
 ## Project Structure:
 
@@ -11,7 +16,7 @@
 ## Milestone 3:
 
 
-**_Group Members:_**
-Shahanaz Alex
-Matthew Cyrus
-Laurel Jackson
+**Group Members:**
++ Shahanaz Alex
++ Matthew Cyrus
++ Laurel Jackson
