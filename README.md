@@ -7,7 +7,7 @@
 
 > In mythology, folklore and the Shinto religion of Japan, Tenjin (天神) is the patron kami (deity) of academics, scholarship and learning, the intelligentsia.
 
-### This is a Github respository for the project course INFO 3604
+**This is a Github respository for the project course INFO 3604**
 
 ## Overview
 Tenjin is a mobile teacher's assistant application developed by Decoders as their final year project. 
@@ -78,14 +78,14 @@ After you have set up your environment, you'll need to make some changes to your
     `final response = await http.post("http://192.168.100.12/tenjindb/getcourses.php",` 
 
     change the `192.168.100.12` to your IP address
-    
-    + In `student_file.dart` on line 51 : 
+
+  + In `student_file.dart` on line 51 : 
 
     `final result = await http.get("http://192.168.100.12/tenjindb/studentcourse.php");` 
 
     change the `192.168.100.12` to your IP address
-    
-    + In `courseServices.dart` on line 7 : 
+
+  + In `courseServices.dart` on line 7 : 
 
     `static const ROOT = 'http://192.168.100.12/tenjindb/CourseQueries.php';` 
 
