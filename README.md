@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100" src = "https://raw.githubusercontent.com/laurij95/De-Coders-Tenjin/master/tenjin-2.png?token=AJBTKRJPNETSWIMX5NQ3WMK6VZDEU" alt="Tenjin Logo">
+  <img width="100" src="https://raw.githubusercontent.com/laurij95/De-Coders-Tenjin/master/tenjin-2.png?token=AJBTKRJL2QXXNYO5ZGJ2VJ26VZEO4" alt="Tenjin Logo">
 </p>
 
 <h1 align = "center">Tenjin by Decoders</h1>
