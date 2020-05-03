@@ -98,6 +98,8 @@ After you have set up your environment, you'll need to make some changes to your
 
 
 ## How to Use
+This section guides users through the different actions that a particular user can take.
+
 ### FOR TEACHERS
 #### Signing up / Registering
 ---
