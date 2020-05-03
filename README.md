@@ -3,6 +3,8 @@
 
 ### This is a Github respository for the project course INFO 3604
 
+<div style="text-align:center"><img src="" /></div>
+
 ## Overview
 Tenjin is a mobile teacher's assistant application developed by Decoders as their final year project. 
 
