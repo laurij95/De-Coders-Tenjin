@@ -67,7 +67,7 @@ After you have set up your environment, you'll need to make some changes to your
 This section guides users through the different actions that a particular user can take.
 
 ### FOR TEACHERS
-#### Signing up / Registering
+
 ---
 #### Login
 <p align="center">
@@ -108,7 +108,6 @@ This section guides users through the different actions that a particular user c
 </p>
 
 ---
-
 #### Documents
 <p align="center">
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/1.png" alt="Document Page">
@@ -160,7 +159,6 @@ This section guides users through the different actions that a particular user c
 <p align="center">
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/5.png" alt="Upload File Part 3">
 </p>
-
 
 ---
 #### Upload Student Database
@@ -214,6 +212,7 @@ This section guides users through the different actions that a particular user c
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/7.png" alt="Upload File Part 4">
 </p>
 
+---
 #### View Students
 <p align="center">
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/1.png" alt="View Students Page">
@@ -263,8 +262,8 @@ This section guides users through the different actions that a particular user c
 <p align="center">
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/5.png" alt="Document Purchase">
 </p>
----
 
+---
 
 
 **Group Members:**
