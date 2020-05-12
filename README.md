@@ -108,35 +108,96 @@ This section guides users through the different actions that a particular user c
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/login.png" alt="Teacher Login">
 </p>
 <p align="center">
-  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/1.png" alt="Teacher Login">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/1.png" alt="Teacher Home Page">
 </p>
 <p align="center">
-  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/2.png" alt="Teacher Login">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/2.png" alt="Teacher Profile and Logout">
 </p>
 
 ---
 #### Courses
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/1.png" alt="Course Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/2.png" alt="Course Page">
+</p>
+
 ##### Add Course
-##### Update Course 
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/3.png" alt="TAdd Course">
+</p>
+
+##### Update Course
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/4.png" alt="Update Course">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/5.png" alt="Update Course Warning">
+</p>
+
 ##### Delete Courses
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/6.png" alt="Delete Course">
+</p>
 ---
+
 #### Documents
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ##### Upload Document
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ##### Update Document
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ##### Delete Document
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ---
 ### FOR STUDENTS
 #### Signing up / Registering
 ---
 #### Login
----
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
 
+---
 #### Courses
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ##### View Courses
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ---
 #### Documents
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ##### View Documents
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ##### Buy / Unlock a Document
+<p align="center">
+  <img src="" alt="Teacher Profile and Logout">
+</p>
+
 ---
 
 
