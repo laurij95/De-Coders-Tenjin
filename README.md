@@ -214,6 +214,22 @@ This section guides users through the different actions that a particular user c
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/7.png" alt="Upload File Part 4">
 </p>
 
+#### View Students
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/1.png" alt="View Students Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/2.png" alt="View Students Page Info">
+</p>
+
+##### Viewing Students
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/3.png" alt="Viewing Students">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/4.png" alt="View Students Info">
+</p>
+
 ---
 ### FOR STUDENTS
 #### Signing up / Registering
