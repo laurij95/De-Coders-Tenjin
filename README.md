@@ -140,27 +140,52 @@ This section guides users through the different actions that a particular user c
 <p align="center">
   <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/6.png" alt="Delete Course">
 </p>
+
 ---
 
 #### Documents
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/1.png" alt="Document Page">
 </p>
-
-##### Upload Document
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/1.1.png" alt="Document Page Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/2.png" alt="Document Page Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/2.1.png" alt="Course Documents Page Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/3.png" alt="Teacher Profile and Logout">
 </p>
 
 ##### Update Document
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/4.png" alt="Document Update">
+</p>
+
+##### Open Document
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/5.png" alt="Open Document">
 </p>
 
 ##### Delete Document
 <p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/6.png" alt="Delete Document">
+</p>
+
+---
+#### Upload Files
+<p align="center">
   <img src="" alt="Teacher Profile and Logout">
 </p>
+
+---
+#### Upload Student Database
+
+---
+#### Upload Grades
 
 ---
 ### FOR STUDENTS
