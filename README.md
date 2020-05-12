@@ -38,7 +38,29 @@ Several technologies were utilised to ensure that Tenjin met its core requiremen
 * **XAMPP with MariaDB and Apache HTTP server**
 
 ## Project Structure:
-once the last prototype is finalised then this will be added
++ **Final Application**
+
+  As the name states, this is the final product of the project, this repository holds the culminated code for all of the previous iterations as well as bug and logic fixes.
+  
++ **Finalised Screenshots**
+  
+  These are screenshots of the system. They have been divided into the Teacher and Student screens and have further been subdivided according to their functionalities.
+  
++ **Prototypes**
+
+  These are the chunks of functionality created after each iteration of the project
+  
++ **Redesigned Prototypes**
+
+  These are the prototypes that have been reformed with added design features and functionalities.
+  
++ **README.md**
+
+  The file that serves as the user manual. This file seeks to inform the user about the application as well as how to use it.
+  
++ **tenjin-2.png**
+
+  This is Tenjin's Logo.
 
 ## Installation
 This section will guide users through Tenjin's installation process.
