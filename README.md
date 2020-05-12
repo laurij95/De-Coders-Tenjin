@@ -60,36 +60,7 @@ After you have set up your environment, you'll need to make some changes to your
   + `Mac OS: ipconfig getifaddr en0` (this is if you are using a wireless connection)
   + `Mac OS: ipconfig getifaddr en1` (this is if you are using an ethernet connection)
   + `Linux: ifconfig`
-3. There are several files that use the IP address to connect to the backend database via the HTTP server. In each of these files you will have to replace the original IP address with your IP address
-  + In `login_page.dart` on line 33 : 
-  
-    `final response = await http.post("http://192.168.100.12/tenjindb/login.php",` 
-    
-    change the `192.168.100.12` to your IP address
-    
-  + In `register_page.dart` on line 35 : 
-
-    `var url="http://192.168.100.12/tenjindb/register.php",` 
-
-    change the `192.168.100.12` to your IP address
-    
-  + In `viewCourses.dart` on line 20 : 
-
-    `final response = await http.post("http://192.168.100.12/tenjindb/getcourses.php",` 
-
-    change the `192.168.100.12` to your IP address
-
-  + In `student_file.dart` on line 51 : 
-
-    `final result = await http.get("http://192.168.100.12/tenjindb/studentcourse.php");` 
-
-    change the `192.168.100.12` to your IP address
-
-  + In `courseServices.dart` on line 7 : 
-
-    `static const ROOT = 'http://192.168.100.12/tenjindb/CourseQueries.php';` 
-
-    change the `192.168.100.12` to your IP address
+3. There are several files that use the IP address to connect to the backend database via the HTTP server. In each of these files you will have to replace the original IP address with your IP address. Search for 
   
   4. Run the application
   
@@ -178,11 +149,49 @@ This section guides users through the different actions that a particular user c
 ---
 #### Upload Files
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/1.png" alt="Import Files Page">
 </p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/2.png" alt="Import Files Page Info">
+</p>
+
+##### Uploading a File
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/3.png" alt="Upload File Part 1">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/4.png" alt="Upload File Part 2">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/5.png" alt="Upload File Part 3">
+</p>
+
 
 ---
 #### Upload Student Database
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/1.png" alt="Upload Student Database Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/2.png" alt="Upload Student Database Page Info">
+</p>
+
+##### Uploading a Student Database
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/3.png" alt="Upload File Part 1">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/4.png" alt="Upload File Screen Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/5.png" alt="Upload File Part 2">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/6.png" alt="Upload File Part 3">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/7.png" alt="Upload File Part 4">
+</p>
 
 ---
 #### Upload Grades
