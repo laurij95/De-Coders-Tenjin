@@ -232,40 +232,37 @@ This section guides users through the different actions that a particular user c
 
 ---
 ### FOR STUDENTS
-#### Signing up / Registering
+
 ---
 #### Login
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/1.png" alt="Student Login">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/2.png" alt="Student Home Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/2.1.png" alt="Student Profile">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/2.2.png" alt="Edit Student Profile">
 </p>
 
----
 #### Courses
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/3.png" alt="Dashboard Page with Courses">
 </p>
 
-##### View Courses
-<p align="center">
-  <img src="" alt="Teacher Profile and Logout">
-</p>
-
----
 #### Documents
-<p align="center">
-  <img src="" alt="Teacher Profile and Logout">
-</p>
-
 ##### View Documents
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/4.png" alt="View Course Documents">
 </p>
 
-##### Buy / Unlock a Document
+##### Unlock Document
 <p align="center">
-  <img src="" alt="Teacher Profile and Logout">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/5.png" alt="Document Purchase">
 </p>
-
 ---
 
 
