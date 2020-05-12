@@ -104,6 +104,16 @@ This section guides users through the different actions that a particular user c
 #### Signing up / Registering
 ---
 #### Login
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/login.png" alt="Teacher Login">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/1.png" alt="Teacher Login">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/2.png" alt="Teacher Login">
+</p>
+
 ---
 #### Courses
 ##### Add Course
