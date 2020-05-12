@@ -54,19 +54,14 @@ This section will guide users through Tenjin's installation process.
 
 ### Code Configuration
 After you have set up your environment, you'll need to make some changes to your code once you have downloaded it
-1. Download or clone this repository and stick it in your `HTDOCS` folder
+1. Download or clone this repository and stick it in your `HTDOCS` folder, alternatively you can take only the `tenjindb` folder and insert it into the `HTDOCS` folder.
 2. You will need your IP address for the paths in this application, if you do not know what your IP address is, here are some commands that you can enter in your command line / terminal:
   + `Windows: ipconfig`
   + `Mac OS: ipconfig getifaddr en0` (this is if you are using a wireless connection)
   + `Mac OS: ipconfig getifaddr en1` (this is if you are using an ethernet connection)
   + `Linux: ifconfig`
-3. There are several files that use the IP address to connect to the backend database via the HTTP server. In each of these files you will have to replace the original IP address with your IP address. Search for 
-  
-  4. Run the application
-  
-  
-
-
+3. There are several files that use the IP address to connect to the backend database via the HTTP server. In each of these files you will have to replace the original IP address with your IP address. Search for `10.0.2.2` in your IDE and change all instances of it to your IP address.
+4. Run the application
 
 ## How to Use
 This section guides users through the different actions that a particular user can take.
@@ -195,6 +190,29 @@ This section guides users through the different actions that a particular user c
 
 ---
 #### Upload Grades
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/1.png" alt="Upload Grade Screen">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/2.png" alt="Upload Grade Screen Info">
+</p>
+
+##### Uploading Grades
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/3.png" alt="Upload File Part 1">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/4.png" alt="Upload File Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/5.png" alt="Upload File Part 2">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/6.png" alt="Upload File Part 3">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/7.png" alt="Upload File Part 4">
+</p>
 
 ---
 ### FOR STUDENTS
