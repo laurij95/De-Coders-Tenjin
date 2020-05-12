@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "373568794745",
+    "firebase_url": "https://project-tenjin.firebaseio.com",
+    "project_id": "project-tenjin",
+    "storage_bucket": "project-tenjin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373568794745:android:be0ca4650c4e702e3f24a8",
+        "android_client_info": {
+          "package_name": "com.example.tenjin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373568794745-apn1sdvhptt1m4uioum6ncdt7npn8n0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJiOnutemSnRAun_h0e-FcAMNc19OUh5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373568794745-apn1sdvhptt1m4uioum6ncdt7npn8n0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
