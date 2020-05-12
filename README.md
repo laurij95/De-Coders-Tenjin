@@ -20,6 +20,15 @@ The application allows teachers to upload a student gradesheet which is then use
 
 Tenjin allows students to view the tally of acquired credit points by course so that the student can keep track of their 'spending.' The app also allows students to view courses they are enrolled in as well as the respectful documents within those courses. The student is also allowed to 'pay' for or 'purchase' a document in order to view it.
 
+## Contents
++ [Technologies Used](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#technologies-used)
++ [Project Structure](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#project-structure)
++ [Installation](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#installation)
++ [How To Use](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#how-to-use)
+  + [For Teachers](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#for-teachers)
+  + [For Students](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#for-students)
+
+
 ## Technologies Used
 Several technologies were utilised to ensure that Tenjin met its core requirements, some of which include:
 * **Flutter framework with Dart API**
