@@ -121,7 +121,7 @@ class _CourseMaterialState extends State<CourseMaterial> {
         ),
 
       ),
-      floatingActionButton: FloatingActionButton(
+      /*floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
             _loading = !_loading;
@@ -131,9 +131,9 @@ class _CourseMaterialState extends State<CourseMaterial> {
 
         },
         //child: PDFViewer(document: document),
-        tooltip: 'Download',
-        child: Icon(Icons.add_to_home_screen),
-      ),
+      // tooltip: 'Download',
+      //  child: Icon(Icons.add_to_home_screen),
+      )*/
     );
   }
 

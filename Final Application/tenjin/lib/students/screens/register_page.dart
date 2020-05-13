@@ -63,7 +63,6 @@ class _RegisterPageState extends State<RegisterPage>{
               icon: Icon(Icons.person),
               label:Text('Sign In'),
               onPressed: (){
-
                 Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => LoginPage()));

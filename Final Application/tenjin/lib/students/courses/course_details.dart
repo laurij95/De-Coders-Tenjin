@@ -6,7 +6,6 @@ import 'package:tenjin/students/courses/course_material.dart';
 import 'package:tenjin/teacher/models/documents.dart';
 import 'package:tenjin/teacher/service/studentServices.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter/scheduler.dart';
 
 class CourseDetails extends StatefulWidget {
 
