@@ -20,6 +20,15 @@ The application allows teachers to upload a student gradesheet which is then use
 
 Tenjin allows students to view the tally of acquired credit points by course so that the student can keep track of their 'spending.' The app also allows students to view courses they are enrolled in as well as the respectful documents within those courses. The student is also allowed to 'pay' for or 'purchase' a document in order to view it.
 
+## Contents
++ [Technologies Used](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#technologies-used)
++ [Project Structure](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#project-structure)
++ [Installation](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#installation)
++ [How To Use](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#how-to-use)
+  + [For Teachers](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#for-teachers)
+  + [For Students](https://github.com/laurij95/De-Coders-Tenjin/blob/master/README.md#for-students)
+
+
 ## Technologies Used
 Several technologies were utilised to ensure that Tenjin met its core requirements, some of which include:
 * **Flutter framework with Dart API**
@@ -38,7 +47,29 @@ Several technologies were utilised to ensure that Tenjin met its core requiremen
 * **XAMPP with MariaDB and Apache HTTP server**
 
 ## Project Structure:
-once the last prototype is finalised then this will be added
++ **Final Application**
+
+  As the name states, this is the final product of the project, this repository holds the culminated code for all of the previous iterations as well as bug and logic fixes.
+  
++ **Finalised Screenshots**
+  
+  These are screenshots of the system. They have been divided into the Teacher and Student screens and have further been subdivided according to their functionalities.
+  
++ **Prototypes**
+
+  These are the chunks of functionality created after each iteration of the project
+  
++ **Redesigned Prototypes**
+
+  These are the prototypes that have been reformed with added design features and functionalities.
+  
++ **README.md**
+
+  The file that serves as the user manual. This file seeks to inform the user about the application as well as how to use it.
+  
++ **tenjin-2.png**
+
+  This is Tenjin's Logo.
 
 ## Installation
 This section will guide users through Tenjin's installation process.
@@ -54,81 +85,216 @@ This section will guide users through Tenjin's installation process.
 
 ### Code Configuration
 After you have set up your environment, you'll need to make some changes to your code once you have downloaded it
-1. Download or clone this repository and stick it in your `HTDOCS` folder
+1. Download or clone this repository and stick it in your `HTDOCS` folder, alternatively you can take only the `tenjindb` folder and insert it into the `HTDOCS` folder.
 2. You will need your IP address for the paths in this application, if you do not know what your IP address is, here are some commands that you can enter in your command line / terminal:
   + `Windows: ipconfig`
   + `Mac OS: ipconfig getifaddr en0` (this is if you are using a wireless connection)
   + `Mac OS: ipconfig getifaddr en1` (this is if you are using an ethernet connection)
   + `Linux: ifconfig`
-3. There are several files that use the IP address to connect to the backend database via the HTTP server. In each of these files you will have to replace the original IP address with your IP address
-  + In `login_page.dart` on line 33 : 
-  
-    `final response = await http.post("http://192.168.100.12/tenjindb/login.php",` 
-    
-    change the `192.168.100.12` to your IP address
-    
-  + In `register_page.dart` on line 35 : 
-
-    `var url="http://192.168.100.12/tenjindb/register.php",` 
-
-    change the `192.168.100.12` to your IP address
-    
-  + In `viewCourses.dart` on line 20 : 
-
-    `final response = await http.post("http://192.168.100.12/tenjindb/getcourses.php",` 
-
-    change the `192.168.100.12` to your IP address
-
-  + In `student_file.dart` on line 51 : 
-
-    `final result = await http.get("http://192.168.100.12/tenjindb/studentcourse.php");` 
-
-    change the `192.168.100.12` to your IP address
-
-  + In `courseServices.dart` on line 7 : 
-
-    `static const ROOT = 'http://192.168.100.12/tenjindb/CourseQueries.php';` 
-
-    change the `192.168.100.12` to your IP address
-  
-  4. Run the application
-  
-  
-
-
+3. There are several files that use the IP address to connect to the backend database via the HTTP server. In each of these files you will have to replace the original IP address with your IP address. Search for `10.0.2.2` in your IDE and change all instances of it to your IP address.
+4. Run the application
 
 ## How to Use
 This section guides users through the different actions that a particular user can take.
 
 ### FOR TEACHERS
-#### Signing up / Registering
+
 ---
 #### Login
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/login.png" alt="Teacher Login">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/1.png" alt="Teacher Home Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Login%20-%20Profile/2.png" alt="Teacher Profile and Logout">
+</p>
+
 ---
 #### Courses
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/1.png" alt="Course Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/2.png" alt="Course Page">
+</p>
+
 ##### Add Course
-##### Update Course 
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/3.png" alt="TAdd Course">
+</p>
+
+##### Update Course
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/4.png" alt="Update Course">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/5.png" alt="Update Course Warning">
+</p>
+
 ##### Delete Courses
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Courses/6.png" alt="Delete Course">
+</p>
+
 ---
 #### Documents
-##### Upload Document
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/1.png" alt="Document Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/1.1.png" alt="Document Page Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/2.png" alt="Document Page Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/2.1.png" alt="Course Documents Page Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/3.png" alt="Teacher Profile and Logout">
+</p>
+
 ##### Update Document
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/4.png" alt="Document Update">
+</p>
+
+##### Open Document
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/5.png" alt="Open Document">
+</p>
+
 ##### Delete Document
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Documents/6.png" alt="Delete Document">
+</p>
+
+---
+#### Upload Files
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/1.png" alt="Import Files Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/2.png" alt="Import Files Page Info">
+</p>
+
+##### Uploading a File
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/3.png" alt="Upload File Part 1">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/4.png" alt="Upload File Part 2">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Upload%20Files/5.png" alt="Upload File Part 3">
+</p>
+
+---
+#### Upload Student Database
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/1.png" alt="Upload Student Database Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/2.png" alt="Upload Student Database Page Info">
+</p>
+
+##### Uploading a Student Database
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/3.png" alt="Upload File Part 1">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/4.png" alt="Upload File Screen Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/5.png" alt="Upload File Part 2">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/6.png" alt="Upload File Part 3">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Student%20Upload/7.png" alt="Upload File Part 4">
+</p>
+
+---
+#### Upload Grades
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/1.png" alt="Upload Grade Screen">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/2.png" alt="Upload Grade Screen Info">
+</p>
+
+##### Uploading Grades
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/3.png" alt="Upload File Part 1">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/4.png" alt="Upload File Info">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/5.png" alt="Upload File Part 2">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/6.png" alt="Upload File Part 3">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/Grades/7.png" alt="Upload File Part 4">
+</p>
+
+---
+#### View Students
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/1.png" alt="View Students Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/2.png" alt="View Students Page Info">
+</p>
+
+##### Viewing Students
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/3.png" alt="Viewing Students">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Teacher/View%20Students/4.png" alt="View Students Info">
+</p>
+
 ---
 ### FOR STUDENTS
-#### Signing up / Registering
+
 ---
 #### Login
----
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/1.png" alt="Student Login">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/2.png" alt="Student Home Page">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/2.1.png" alt="Student Profile">
+</p>
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/2.2.png" alt="Edit Student Profile">
+</p>
 
 #### Courses
-##### View Courses
----
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/3.png" alt="Dashboard Page with Courses">
+</p>
+
 #### Documents
 ##### View Documents
-##### Buy / Unlock a Document
----
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/4.png" alt="View Course Documents">
+</p>
 
+##### Unlock Document
+<p align="center">
+  <img src="https://github.com/laurij95/De-Coders-Tenjin/blob/master/Finalized%20Screenshots/Student/5.png" alt="Document Purchase">
+</p>
+
+---
 
 
 **Group Members:**
